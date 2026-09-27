@@ -1,42 +1,85 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="id">
 <head>
-    <title>Profil Mahasiswa</title>
+    <meta charset="UTF-8">
+    <title>Profil Mahasiswa - Belajar Dasar HTML</title>
 </head>
-
 <body>
+
+    <!-- Navigasi halaman -->
     <nav>
-        <a href="Lab1_tag_Dasar.html">Beranda</a>
-        <a href="halaman2.html">Halaman 2</a>
-        <a href="www.google.com">Website eksternal</a>
+        <a href="index.html">Beranda</a> |
+        <a href="halaman2.html">Halaman 2</a> |
+        <a href="https://www.google.com">Website Eksternal</a>
     </nav>
     <hr>
-    <h1>Profil Mahasiswa</h1>
-    <img src="Imagess/profil.jpg" width="200" alt="Foto profil mahasiswa">
-    <h2>Data Diri</h2>
+
+    <!-- judul utama -->
+    <h1>Belajar Dasar HTML</h1>
+
+    <!-- subjudul -->
+    <h2>Paragraf pada HTML</h2>
+
+    <!-- Ini adalah paragraf pertama -->
     <p>
-        Nama: Syafri Prayogo
+        Kami sedang belajar <b>HTML dasar</b> pada mata kuliah
+        <i>Pemrograman Web</i>. Praktikum ini digunakan untuk mengenal
+        tag-tag dasar HTML.
     </p>
+
+    <!-- Ini adalah paragraf kedua -->
     <p>
-        Program Studi: Teknik Informatika
+        HTML merupakan <strong>bahasa markup</strong> yang digunakan untuk
+        menyusun struktur dan konten halaman web. Browser akan menampilkan
+        hasil <em>interpretasi</em> dari dokumen HTML.
     </p>
+
+    <!-- Eksperimen pemformatan teks -->
     <p>
-        Saya sedang mempelajari dasar-dasar pengembangan
-        aplikasi web menggunakan HTML.
+        Air ditulis sebagai H<sub>2</sub>O dan luas dapat ditulis sebagai
+        x<sup>2</sup>. Kata <mark>ini diberi penanda</mark>, teks
+        <small>ini lebih kecil</small>, harga <del>Rp100.000</del>
+        <ins>Rp75.000</ins>.
     </p>
+
+    <hr>
+
+    <!-- Bagian Profil Mahasiswa -->
+    <h2>Profil Mahasiswa</h2>
+    <img src="Imagess/profil.jpg"
+         width="200"
+         alt="Foto profil mahasiswa"
+         title="Foto Profil Mahasiswa">
+
+    <h3>Data Diri</h3>
+    <p>Nama: Syafri Prayogo</p>
+    <p>NIM: 312510500</p>
+    <p>Kelas: TI.25.C.3</p>
+    <p>Program Studi: Teknik Informatika</p>
+    <p>
+        Saya sedang mempelajari dasar-dasar pengembangan aplikasi web
+        menggunakan HTML.
+    </p>
+
+    <!-- Bagian Keahlian (unordered list) -->
     <h2>Keahlian</h2>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
     </ul>
-    <h2>Target Belajar</h2>
-    <ol>
-        <li>Menguasai HTML</li>
-        <li>Menguasai CSS</li>
-        <li>Menguasai JavaScript</li>
-    </ol>
-</body>
 
+    <!-- Bagian Target Belajar (ordered list) -->
+    <h2>Urutan Belajar</h2>
+    <ol>
+        <li>Mempelajari struktur HTML</li>
+        <li>Mempelajari tag dan atribut</li>
+        <li>Membuat halaman HTML</li>
+        <li>Menguji halaman pada browser</li>
+    </ol>
+
+    <hr>
+    <p><small>&copy; 2026 - Praktikum 1 Pemrograman Web</small></p>
+
+</body>
 </html>
