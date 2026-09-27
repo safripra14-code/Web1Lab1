@@ -124,7 +124,7 @@ Simpan gambar di folder `images/`, lalu tampilkan dengan tag `<img>` beserta atr
      title="Foto Profil Mahasiswa">
 ```
 
-![Gambar](screenshots/05_gambar.png)
+![Gambar](screenshots/gambar1.png)
 
 > *Gambar 4.5 — Gambar tampil dengan lebar 200px sesuai atribut width.*
 
@@ -138,7 +138,7 @@ Ukuran gambar diatur lewat atribut `width` / `height`. Berikut perbandingan tiga
 <img src="images/profil.jpg" width="240" alt="w=240">
 ```
 
-![Ukuran gambar](screenshots/06_ukuran_gambar.png)
+![Ukuran gambar](screenshots/gambar2.png)
 
 > *Gambar 4.6 — Perbandingan gambar sama dengan lebar berbeda; tinggi menyesuaikan proporsional.*
 
@@ -189,7 +189,7 @@ Buat daftar tak berurutan (`<ul>`) untuk keahlian dan daftar berurutan (`<ol>`) 
 
 Semua elemen digabung menjadi satu halaman `index.html`: navigasi, heading, paragraf berformat, gambar, list, dan komentar.
 
-![Index final](screenshots/09_index_final.png)
+![Index final](screenshots/gambar3.png)
 
 > *Gambar 4.9 — Tampilan akhir `index.html` yang menggabungkan seluruh elemen praktikum.*
 
